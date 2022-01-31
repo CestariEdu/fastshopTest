@@ -1,0 +1,30 @@
+{
+  "name": "klok",
+  "version": "1.0.0",
+  "description": "",
+  "main": "wdio.conf.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npx wdio run ./wdio.conf.js",
+    "open:report": "open ./report/timeline-report.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "7.16.14",
+    "open": "8.4.0"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "7.16.14",
+    "@wdio/mocha-framework": "7.16.14",
+    "@wdio/spec-reporter": "7.16.14",
+    "chromedriver": "97.0.2",
+    "dotenv": "14.3.2",
+    "pure-gen": "2.1.0",
+    "wdio-chromedriver-service": "7.2.6",
+    "wdio-timeline-reporter": "5.1.4"
+  }
+}
